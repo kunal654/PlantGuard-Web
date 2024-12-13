@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__)
 
-url = "https://web-production-0cb7.up.railway.app/predict/"
+url = "https://web-production-904d.up.railway.app/predict/"
 
 def detect(file):
     file = {"file": file}
