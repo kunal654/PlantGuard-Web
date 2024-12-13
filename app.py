@@ -31,7 +31,7 @@ def index():
 
 @app.route('/whatsapp')
 def whatsapp():
-    return redirect('https://wa.me/+1(415)523-8886?text=join%20street-silent')
+    return redirect('https://wa.me/+1(415)523-8886?text=join%20medicine-fine')
 @app.route('/developers')
 def developers():
     return render_template('developers.html')
